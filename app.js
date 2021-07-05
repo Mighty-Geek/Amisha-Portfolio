@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 
-var PORT = 3000 || process.env.PORT;
+var port = 3000 || process.env.PORT;
 var app = express();
 
 const router = express.Router();
@@ -27,5 +27,5 @@ app.get("/projects", (req, res) => {
 });
 
 
-app.listen(PORT);
-console.log(`app running on port ${PORT}`);
+app.listen(port);
+console.log(`app running on port ${port}`);

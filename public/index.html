@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <title>Amisha Jangra</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="social-navbar">
+        <a href="https://aamishajangra.medium.com/" class="medium" target="_blank"><i class="fab fa-medium-m"></i></a>
+        <a href="https://www.linkedin.com/in/amisha-jangra-b91594192/" class="linkedin" target="_blank"><i
+                class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/Mighty-Geek" class="github" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/AmishaJ05" class="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+    <div class="navbar">
+        <div class="nav-list">
+            <a href="#" class="nav-link">Home</a>
+            <a href="./about.html" class="nav-link">About</a>
+            <a href="./projects.html" class="nav-link">Projects</a>
+            <!-- <a href="#" class="nav-link">Contact</a> -->
+        </div>
+        <div class="hamburger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+        </div>
+        <div class="responsive-nav-list">
+            <a href="#" class="res-nav-link"><i class="fas fa-home"></i></a>
+            <a href="#" class="res-nav-link"><i class="fas fa-user"></i></a>
+            <a href="#" class="res-nav-link"><i class="fas fa-briefcase"></i></a>
+            <!-- <a href="#" class="res-nav-link"><i class="fas fa-phone-alt"></i></a> -->
+        </div>
+    </div>
+    <div class="main">
+        <h1>Hi there,</h1>
+        <h1>I am</h1>
+        <div class="name-animation">
+            <div class="letters">
+                <div class="letter">A</div>
+                <div class="letter">M</div>
+                <div class="letter">I</div>
+                <div class="letter">S</div>
+                <div class="letter">H</div>
+                <div class="letter">A</div>
+                <div class="letter" style="color: transparent;">_</div>
+                <div class="letter">J</div>
+                <div class="letter">A</div>
+                <div class="letter">N</div>
+                <div class="letter">G</div>
+                <div class="letter">R</div>
+                <div class="letter">A</div>
+            </div>
+        </div>
+        <div class="container">
+            <a href="https://drive.google.com/file/d/13TAcoEcjPagdKLI5G7qKQgr_enxSBeyn/view?usp=sharing" target="_blank"
+                class="main-btn">Resume</a>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://github.com/Mighty-Geek&amp;title=Amisha Jangra. Web Developer.&amp;summary=Amisha, her interest in science and technology has always pushed her to solve real-life problems. She is currently a Computer science undergrad.&amp;source=https://github.com/Mighty-Geek"
+                target="_blank" rel="noopener" class="main-btn heart">Share with <i class="fas fa-heart"></i></a>
+        </div>
+    </div>
+    <script>
+        const cursor = document.querySelector('.cursor');
+        document.addEventListener('mousemove', e => {
+            cursor.setAttribute("style", "top: " + (e.pageY - 20) + "px; left: " + (e.pageX - 20) + "px;");
+        });
+    </script>
+    <script src="three/build/three.min.js"></script>
+    <script src="postprocessing/build/postprocessing.min.js"></script>
+    <script src="./js/script.js" type="module"></script>
+</body>
+
+</html>

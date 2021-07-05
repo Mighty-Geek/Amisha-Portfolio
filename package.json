@@ -1,0 +1,28 @@
+{
+  "name": "amisha-portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "app.js",
+  "dependencies": {
+    "postprocessing": "^6.22.0",
+    "three": "^0.129.0"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.18.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mighty-Geek/Amisha-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mighty-Geek/Amisha-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Mighty-Geek/Amisha-Portfolio#readme"
+}

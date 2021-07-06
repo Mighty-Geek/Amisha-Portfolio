@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 
-var port = 3000 || process.env.PORT;
+var port = process.env.PORT || 3000;
 var app = express();
 
 const router = express.Router();

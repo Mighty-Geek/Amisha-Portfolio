@@ -445,9 +445,25 @@ overflow: hidden;
     margin-right: 20vw;
 }
 }
-@media only screen and (max-width: 730px)
+/* @media only screen and (max-width: 730px)
 {
-    body{
-        display: none;
+    .main h1{
+        font-size: 2.75rem;
+        font-weight: bolder;
+        letter-spacing: 4px;
+        color: rgb(224, 222, 222);
+        text-shadow:
+        3px 3px 0 #000,
+        -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
     }
-}
+    .main .name-animation{
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .main .letters{
+        font-size: 1rem;
+    }
+} */

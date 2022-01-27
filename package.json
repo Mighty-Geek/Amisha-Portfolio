@@ -6,7 +6,7 @@
   "dependencies": {
     "express": "^4.17.2",
     "postprocessing": "^6.23.5",
-    "three": "^0.129.0"
+    "three": "^0.137.2"
   },
   "devDependencies": {
     "node-sass": "^4.7.2",

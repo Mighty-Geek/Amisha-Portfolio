@@ -4,8 +4,8 @@
   "description": "My portfolio website",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.17.1",
-    "postprocessing": "^6.22.0",
+    "express": "^4.17.2",
+    "postprocessing": "^6.23.5",
     "three": "^0.129.0"
   },
   "devDependencies": {
